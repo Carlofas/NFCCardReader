@@ -14,7 +14,7 @@ import es.charles.nfccardreader.utils.Provider
 import org.apache.commons.lang3.StringUtils
 import java.io.IOException
 
-class GenericTask(private val mInterface: MyCardNfcInterface) : GenericCoroutinesTask<Intent, Void, EmvCard>("PRUEBA TASK") {
+class GenericTask(private val mInterface: MyCardNfcInterface) : GenericCoroutinesTask<Intent, Void, EmvCard>("CARD TASK") {
 
     private var mProvider: Provider? = Provider()
     private var mException = false
