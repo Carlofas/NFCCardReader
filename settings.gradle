@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "NFC Card Reader"
 include ':app'
-include ':demonfc'
+include ':nfcdemo'
